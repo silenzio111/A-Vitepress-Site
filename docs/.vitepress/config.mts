@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
+  title: "Silenzio's VitePress Site",
   base:"/A-Vitepress-Site/",
-  description: "A VitePress Site",
+  description: "Under construction...",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -17,13 +17,25 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
+          { text: 'Runtime API Examples', link: '/api-examples' }]
+      },
+      {
+        text: 'test_sub1_test',
+        items: [
+          { text: 'Index', link: '/test1/index' },
+          { text: 'One', link: '/test1/one' }]
+      },
+      {
+        text: 'test_sub2_test',
+        items: [
+          { text: 'Index', link: '/test2/index' },
+          { text: 'One', link: '/test2/one' }]
       }
     ],
-
+  
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'mian_site', link: 'https://silenzio111.github.io/' }
     ]
   }
 })
