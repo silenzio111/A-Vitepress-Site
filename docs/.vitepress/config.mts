@@ -20,9 +20,9 @@ export default defineConfig({
           { text: 'Runtime API Examples', link: '/api-examples' }]
       },
       {
-        text: 'test_sub1_test',
+        text: 'pandas',
         items: [
-          { text: 'Index', link: '/test1/index' },
+          { text: '入门', link: '/pandas/入门' },
           { text: 'One', link: '/test1/one' }]
       },
       {
