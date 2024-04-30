@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'pandas_learning', link: '/pandas' }
+      { text: 'pandas_learning', link: '/pandas/索引、选择和赋值讲义' }
     ],
     sidebar: [
       {
