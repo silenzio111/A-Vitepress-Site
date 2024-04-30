@@ -7,35 +7,25 @@ export default defineConfig({
   description: "Under construction...",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'pandas_learning',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }]
-      },
-      {
-        text: 'pandas',
-        items: [
-          { text: '入门', link: '/pandas/入门' },
+          { text: '索引、选择和赋值', link: '/pandas/索引、选择和赋值讲义' },
           { text: 'One', link: '/test1/one' }]
       },
       {
-        text: 'test_sub2_test',
+        text: 'pandas_excercise',
         items: [
-          { text: 'Index', link: '/test2/index' },
+          { text: '索引、选择和赋值', link: '/pandas/索引、选择和赋值练习' },
           { text: 'One', link: '/test2/one' }]
       }
     ],
   
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'mian_site', link: 'https://silenzio111.github.io/' }
+      { icon: 'mian_site', link: 'https://silenzio111.github.io/' },
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })
