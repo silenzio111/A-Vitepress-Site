@@ -7,7 +7,10 @@ export default defineConfig({
   description: "Under construction...",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'pandas_learning', link: '/pandas' }
+    ],
     sidebar: [
       {
         text: 'pandas_learning',
@@ -24,6 +27,7 @@ export default defineConfig({
     ],
   
     socialLinks: [
+
       { icon: 'mian_site', link: 'https://silenzio111.github.io/' },
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
