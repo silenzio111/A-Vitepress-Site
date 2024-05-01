@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.BozWisU7.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"中级计量经济学/desc.md","filePath":"中级计量经济学/desc.md"}'),s={name:"中级计量经济学/desc.md"};function c(r,o,n,d,p,_){return a(),t("div")}const f=e(s,[["render",c]]);export{m as __pageData,f as default};
